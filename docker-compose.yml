@@ -8,5 +8,5 @@ services:
       - dev_lab
     entrypoint: ["mysqld"]
 networks:
-  lab_dev:
+  dev_lab:
     external: true
