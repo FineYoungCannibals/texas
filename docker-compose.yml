@@ -5,7 +5,7 @@ services:
     volumes:
       - /opt/docker/texas/mysql:/var/lib/mysql
     networks:
-      - lab_dev
+      - dev_lab
     entrypoint: ["mysqld"]
 networks:
   lab_dev:
