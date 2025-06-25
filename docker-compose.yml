@@ -1,0 +1,12 @@
+services:
+  texasmysql:
+    image: mysql:latest
+    restart: none
+    volumes:
+      - /opt/docker/texas/mysql:/var/lib/mysql
+    networks:
+      - lab_dev
+    entrypoint: ["mysqld"]
+networks:
+  lab_dev:
+    external: true
