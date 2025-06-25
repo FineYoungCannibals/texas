@@ -1,6 +1,6 @@
 services:
   texasmysql:
-    image: mysql:8.0.41
+    image: ghcr.io/fineyoungcannibals/texas_mysql:latest
     restart: none
     volumes:
       - /opt/docker/texas/mysql:/var/lib/mysql
