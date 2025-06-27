@@ -1,5 +1,6 @@
 services:
   texasmysql:
+    container_name: texasmysql
     image: ghcr.io/fineyoungcannibals/texas_mysql:latest
     restart: none
     volumes:
